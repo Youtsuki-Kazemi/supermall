@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view />
-    <main-tabber />
+    <main-tabber class="maintabber" />
   </div>
 </template>
 
@@ -20,4 +20,8 @@ export default {
 <style lang="less">
 @import "@/assets/css/base.css";
 @import "@/assets/iconfont/iconfont.css";
+
+.maintabber {
+  z-index: 1000;
+}
 </style>
